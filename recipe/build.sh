@@ -24,3 +24,5 @@ call %DOTNET_ROOT%\dotnet exec %CONDA_PREFIX%\libexec\dotnet-outdated\dotnet-out
 EOF
 
 dotnet-project-licenses --input src/DotNetOutdated/DotNetOutdated.csproj -t -d license-files
+
+rm ${PREFIX}/bin/dotnet
