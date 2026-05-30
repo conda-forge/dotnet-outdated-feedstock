@@ -1,5 +1,5 @@
 context:
-  version: "4.7.1"
+  version: "4.7.2"
 
 package:
   name: dotnet-outdated
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/dotnet-outdated/dotnet-outdated/archive/v${{ version }}.tar.gz
-  sha256: 312c18159579c35fde866aa5be31637901ffbfa594b9fa8809b1ea4f5bc4ee1e
+  sha256: 9ffd1f8262cfbae498aea29c519661a4578213f0232bc80594457ce159c1051e
 
 build:
   number: 0
